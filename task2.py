@@ -10,3 +10,18 @@ genres = ["Adventure", "Comedy", "Animation", "Fantasy", "Sci-Fi", "Documentary"
 
 → Modify the list and display the required results.
 """
+
+genres = ["Adventure", "Comedy", "Animation", "Fantasy", "Sci-Fi", "Documentary", "Fantasy"]
+print(genres)
+
+genres.append("Drama")
+print(genres)
+
+genres.remove(genres[3])
+print(genres)
+
+print(len(genres))
+
+second = genres[1]
+second_to_last = genres[5]
+print(f"Some of our Movie Genre selections include {second} and {second_to_last}")
