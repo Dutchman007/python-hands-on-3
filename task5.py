@@ -30,4 +30,5 @@ paul_position = friends.index("Paul")
 print("Paul's position in this list is:", paul_position + 1)
 
 friends.sort()
+friends.reverse()
 print(friends)
